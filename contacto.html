@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header id="header">
+        <h1>
+            <span>&lt;/></span>
+            <span>Contacto</span>
+            <nav id="navegacion">
+               <ul>
+                   <li>
+                        <a href="#">Contacto</a>
+                   </li>
+                   <li>
+                        <a href="Index.html">Indice</a>
+                   </li>
+               </ul>
+            </nav>
+        </h1>
+
+    </header>
+    
+    <main id="main">
+        <article>
+            <section>
+                <p>Aca lo que hago es realizar las practicas de &lt; html/></p>
+            </section>
+            <section>
+                <p>
+                    Tengan en cuenta que los forms se establecen de esta forma para mejor lectura
+                </p>
+            </section>
+        </article>
+    </main>
+
+    <footer id="footer">
+        <form id="formContacto" onsubmit="alert('Gracias por su consulta')" method="POST">
+            <label for="nombre">Nombre</label>
+            <input type="text"  name="nombre" required>
+            <label for="edad">Edad</label>
+            <input type="number" name="edad">
+            <label for="fechaActual">Fecha nacimiento</label>
+            <input type="date" name="fechaActual">
+            <label for="Mail">Email</label>
+            <input type="email" name="Mail" required placeholder="mail@dominio.com, mail2@dominio.com" multiple> <!--Le pongo una direccion mas-->
+            <input type="submit" value="Enviar por favor!!!">
+            <input type="reset" value="Resetear datos">
+        </form>
+        <div id="derechoReservados">
+            <p>
+                &copy; Todos los derechos reservados
+                <a href="mailto:novasr4516@gmail.com">Rodrigo Novas</a> <!--Esto del mailto era el viejo metodo para formularios, ahora solo se usa para esto de contactos-->
+                &amp; Compañia
+            </p>
+         </div>
+    </footer>
+</body>
+</html>

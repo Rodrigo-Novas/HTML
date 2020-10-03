@@ -1,5 +1,33 @@
-﻿h2
+#navegacion
 {
-    color: red;
+    background-color: burlywood;
+}
 
+
+#navegacion li
+{
+    display: inline;
+    padding: 10px;
+}
+
+#navegacion ul
+{
+    padding: 5px;
+}
+
+#navegacion li:hover
+{
+    background-color: crimson;
+    padding: 8px;
+}
+
+#formContacto label
+{
+    background-color: chartreuse;
+}
+
+#formContacto
+{
+    background-color: darkblue;
+    display: ruby;
 }
